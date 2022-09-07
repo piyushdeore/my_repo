@@ -15,7 +15,10 @@ using namespace std;
 using namespace std::chrono;
 
 int dp[1001][1001];
-
+void fun()
+{
+   cout<<"this is changed";
+}
 int maxValue(int wt[], int val[], int n, int w ) {
 
 
